@@ -4,4 +4,4 @@ def is_even(number: int) -> bool:
 
 is_number_even = is_even(3)
 
-print('Liczba parzysta') if is_number_even else print('Liczba nieparzysta')
+print("Liczba parzysta") if is_number_even else print("Liczba nieparzysta")
