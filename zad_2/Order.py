@@ -6,6 +6,8 @@ class Order:
         self.employee = employee
 
     def __str__(self):
-        return f'Zamówienie studenta {self.student} ' \
-               f'zrealizowane {self.order_date} ' \
-               f'przez {self.employee} na książki: {self.books}'
+        return (
+            f"Zamówienie studenta {self.student} "
+            f"zrealizowane {self.order_date} "
+            f"przez {self.employee} na książki: {self.books}"
+        )

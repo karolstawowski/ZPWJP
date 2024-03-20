@@ -12,12 +12,36 @@ b3 = Book(l1, "22/01/2023", "Halina", "Klementynowicz", 362)
 b4 = Book(l2, "16/12/1987", "Franciszek", "Szpak", 17)
 b5 = Book(l1, "02/03/1993", "Cezary", "Krótki", 241)
 
-e1 = Employee("Kamil", "Smolarek", "20/08/2019", "10/02/1968",
-              "Gorzów Wielopolski", "Biskupińska", "22-012", "654234765")
-e2 = Employee("Stanisław", "Lato", "20/08/2019", "12/03/1985",
-              "Poznań", "Biskupińska", "22-012", "686534765")
-e3 = Employee("Zofia", "Zima", "20/08/2019", "24/11/1998",
-              "Ruda Śląska", "Wolności", "22-012", "654234235")
+e1 = Employee(
+    "Kamil",
+    "Smolarek",
+    "20/08/2019",
+    "10/02/1968",
+    "Gorzów Wielopolski",
+    "Biskupińska",
+    "22-012",
+    "654234765",
+)
+e2 = Employee(
+    "Stanisław",
+    "Lato",
+    "20/08/2019",
+    "12/03/1985",
+    "Poznań",
+    "Biskupińska",
+    "22-012",
+    "686534765",
+)
+e3 = Employee(
+    "Zofia",
+    "Zima",
+    "20/08/2019",
+    "24/11/1998",
+    "Ruda Śląska",
+    "Wolności",
+    "22-012",
+    "654234235",
+)
 
 o1 = Order(e1, "Radosław Żółk", [b1, b2], "09/08/2010")
 print(o1)

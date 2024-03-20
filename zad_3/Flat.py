@@ -7,6 +7,8 @@ class Flat(Property):
         self.floor = floor
 
     def __str__(self):
-        return f'Mieszkanie {self.address} z {self.rooms} pokojami. ' \
-               f'Powierzchnia {self.area}m2. Piętro {self.floor}. ' \
-               f'Cena: {self.price}zł'
+        return (
+            f"Mieszkanie {self.address} z {self.rooms} pokojami. "
+            f"Powierzchnia {self.area}m2. Piętro {self.floor}. "
+            f"Cena: {self.price}zł"
+        )
